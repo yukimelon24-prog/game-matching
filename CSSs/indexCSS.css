@@ -1,0 +1,52 @@
+ body {
+    font-size: 25px;
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #333;
+    max-width: 100%;
+}
+
+ul {
+    position: relative;
+    background-color: #aaaaaa;
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+
+li {
+    position: absolute;
+}
+
+a {
+    text-decoration: none; /* 文字にかかるボーダー戦を取り除くらしい*/
+    color: #000;
+    display: inline-block;
+    padding: 8px 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.T0 {
+    left: 10px;
+}
+
+.T1 {
+    left: 310px;
+}
+
+.T2 {
+    left: 510px;
+}
+
+.T3 {
+    left: 760px;
+}
+
